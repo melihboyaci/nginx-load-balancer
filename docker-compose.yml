@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
 
-  load_balaner:
+  load_balancer:
     image: nginx:alpine
     container_name: nginx_load_balancer
     ports:
